@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #06b6d4;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+/* Typography tweaks */
+.h1, h1 { @apply font-bold tracking-tight; }
+.h2, h2 { @apply font-semibold tracking-tight; }
